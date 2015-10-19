@@ -21,6 +21,7 @@ var obj = {
    prop: {
       fullname: 'Aurelio De Rosa',
       getFullname: function() {
+      	a = 3, b = 5;
          return this.fullname;
       }
    }
@@ -29,5 +30,24 @@ var obj = {
 console.log(obj.prop.getFullname());
 
 var test = obj.prop.getFullname;
+var kolek = {
+	a:3,
+	b:4
+	
+};
 
 console.log(test());
+console.log(typeof(test));
+//console.log(obj.prop.getFullname.arguments.lenght);
+console.log(window.location);
+//window.location = "http://www.google.com";
+
+/*
+navigator.geolocation.getCurrentPosition(function(pos) {
+    var latitude = pos.coords.latitude;
+    var longitude = pos.coords.longitude;
+    alert("Your position: " + latitude + ", " + longitude);
+});
+*/
+
+

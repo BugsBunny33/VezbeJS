@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+
+#clock {
+	font: "Arial Narrow";
+	background: #ddf;
+	padding: 10px;
+	border: solid black 2px;
+	border-radius: 10px; 
+};
