@@ -14,5 +14,6 @@ function chgBack(){
 	back.style.backgroundColor = "#dff";
 }
 
-window.onload = displayTime;
+//window.onload = displayTime;
 setTimeout(chgBack, 5000);
+
